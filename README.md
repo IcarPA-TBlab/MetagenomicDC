@@ -9,7 +9,6 @@ It can be successfully used for classifying both SG and AMP data.
 * Python (2.7.x)
 * Theano (0.8.2)
 * Keras library (2.x)
-* Grinder (0.5.4)
 
 
 ###
