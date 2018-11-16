@@ -30,7 +30,7 @@ def load_data(file):
 		X.append(elements[1:-1])
 		level=elements[-1].split("\n")
 		classe=level[0]
-		Y.append(ciao.index(classe))
+		Y.append(classes.index(classe))
 	X=np.array(X,dtype=float)
 	Y=np.array(Y,dtype=int)
 	data_max= np.amax(X)
